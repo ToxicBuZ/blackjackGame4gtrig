@@ -7,7 +7,7 @@ card_values = { 'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5, 'Six': 6,
 
 class Card:
 
-    def __init__(self,card_type, card_name):
+    def __init__(self, card_type, card_name):
         self.type = card_type
         self.name = card_name
         self.value = card_values[card_name]

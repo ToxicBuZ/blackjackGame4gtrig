@@ -13,6 +13,7 @@ class Hand:
         self.aces = 0
 
     def add_card(self, card):
+        print(card)
         self.cards.append(card)
         self.total_value += card_values[card.name]
 
